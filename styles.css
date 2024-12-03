@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&family=Sofadi+One&display=swap");
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Red Hat Text", sans-serif;
+    padding-left: 3px;
+}
+
+.article-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 40px;
+    color: #260F08;
+    margin-bottom: 24px;
+}
+
+img {
+	border-radius: 8px;
+    padding-bottom: 5px;
+}
+
+p{
+    padding: 4px;
+}
+
+.name{
+    color: #87635A;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.sous-name{
+    font-weight: 600;
+    font-size: 16px;
+    color: #260F08;
+}
+
+.prix{
+    padding-bottom: 50px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #C73B0F;
+}
+
+.your-card{
+    padding-left: 48px;
+    color: #C73B0F;
+}
+
+@media screen and (min-width: 768px) {
+    .article-1{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    .your-card{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
